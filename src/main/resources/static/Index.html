@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="ISO-8859-1">
+<title>Home</title>
+<link rel="stylesheet" type="text/css" href="/webjars/bootstrap/css/bootstrap.min.css"/>
+</head>
+<body>
+<center>
+	<div class="Container text-center">
+	<div>
+	<h1> Welcome to Service Management System</h1>
+	</div>
+</center>
+
+<style>
+.container {
+  position: relative;
+  width: 100%;
+}
+
+/* Make the image responsive */
+.container img {
+  width: 100%;
+  height: auto;
+}
+
+/* Style the button and place it in the middle of the container/image */
+.container .btn {
+  position: absolute;
+  top: 45%;
+  left: 49.5%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #FFB6C1;
+  color: white;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.container .btn1 {
+  position: absolute;
+  top: 35%;
+  right: 42%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #FFB6C1;
+  color: white;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.container .btn:hover {
+  background-color: blue;
+}
+.container .btn1:hover {
+  background-color: blue;
+}
+
+</style>
+
+</head>
+<body>
+
+
+<div class="container">
+  <img src="login.jpg" alt="Snow" width=100%>
+  <a class="btn" href="login.jsp">Sign In</a></br></br>
+  <a class="btn1" href="registration.jsp">Sign Up</a></br></br>
+</div>
+</body>
+</html>
+
